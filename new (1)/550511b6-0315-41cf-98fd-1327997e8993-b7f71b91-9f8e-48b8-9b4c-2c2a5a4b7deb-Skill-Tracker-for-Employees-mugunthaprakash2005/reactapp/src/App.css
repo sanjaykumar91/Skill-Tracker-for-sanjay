@@ -1,0 +1,498 @@
+
+.app-form {
+
+background: white;
+
+padding: 24px;
+
+border-radius: 12px;
+
+box-shadow: 0 8px 24px rgb(0 0 0 / 0.1);
+
+margin-bottom: 40px;
+
+}
+
+
+
+.app-form label {
+
+display: block;
+
+font-weight: 600;
+
+margin-bottom: 6px;
+
+color: #3f51b5;
+
+font-size: 15px;
+
+}
+
+
+
+.input-field {
+
+width: 100%;
+
+padding: 14px 18px;
+
+border: 2px solid #ddd;
+
+border-radius: 10px;
+
+font-size: 16px;
+
+margin-bottom: 20px;
+
+transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.input-field:focus {
+
+outline: none;
+
+border-color: #3f51b5;
+
+box-shadow: 0 0 10px #f51baa;
+
+}
+
+
+
+.form-buttons {
+
+display: flex;
+
+gap: 16px;
+
+margin-top: 12px;
+
+}
+
+
+
+submit-btn {
+
+background-color: #3f51b5;
+
+color: white;
+
+font-weight: 700;
+
+padding: 14px 32px;
+
+border: none;
+
+border-radius: 12px;
+
+cursor: pointer;
+
+transition: background-color 0.3s ease;
+
+}
+
+
+
+.submit-btn:hover {
+
+background-color: #303f9f;
+
+}
+
+
+
+.cancel-btn {
+
+background-color: #777;
+
+color: white;
+
+font-weight: 700;
+
+padding: 14px 32px;
+
+border: none;
+
+border-radius: 12px;
+
+cursor: pointer;
+
+transition: background-color 0.3s ease;
+
+}
+
+
+
+.cancel-btn:hover {
+
+background-color: #555;
+
+}
+
+
+
+/* Employee list styles */
+
+.employee-list-container {
+
+background: white;
+
+padding: 24px 30px;
+
+border-radius: 12px;
+
+box-shadow: 0 8px 24px rgb(0 0 0 / 0.1);
+
+}
+
+
+
+.employee-list {
+
+list-style: none;
+
+margin-top: 20px;
+
+}
+
+
+
+.employee-item {
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 14px 16px;
+
+border-bottom: 1px solid #eee;
+
+font-size: 16px;
+
+}
+
+
+
+.employee-info span {
+
+margin-right: 10px;
+
+color: #333;
+
+}
+
+
+
+.employee-actions button {
+
+margin-left: 10px;
+
+padding: 8px 20px;
+
+border: none;
+
+border-radius: 10px;
+
+font-weight: 600;
+
+cursor: pointer;
+
+transition: background-color 0.3s ease;
+
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.edit-btn {
+
+background-color: #4caf50;
+
+color: white;
+
+}
+
+
+
+.edit-btn:hover {
+
+background-color: #43a047;
+
+}
+
+
+
+.delete-btn {
+
+background-color: #f44336;
+
+color: white;
+
+}
+
+
+
+.delete-btn:hover {
+
+background-color: #d32f2f;
+
+}
+
+
+
+.app-container {
+
+min-height: 100vh;
+
+display: flex;
+
+flex-direction: column;
+
+background: #f9fafb;
+
+padding: 20px 40px;
+
+font-family: 'Poppins', sans-serif;
+
+color: #444;
+
+}
+
+
+
+header {
+
+text-align: center;
+
+padding-bottom: 20px;
+
+font-weight: 700;
+
+font-size: 28px;
+
+color: #3f51b5;
+
+}
+
+
+
+/* Navigation links */
+
+nav {
+
+display: flex;
+
+justify-content: center;
+
+gap: 30px;
+
+margin-bottom: 30px;
+
+}
+
+
+
+nav a {
+
+text-decoration: none;
+
+color: #3f51b5;
+
+font-weight: 600;
+
+font-size: 18px;
+
+padding: 6px 14px;
+
+border-radius: 6px;
+
+transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+
+
+nav a:hover {
+
+background-color: #3f51b5;
+
+color: white;
+
+}
+
+
+
+/* Main content */
+
+main {
+
+max-width: 600px;
+
+margin: 0 auto;
+
+background: white;
+
+padding: 30px 40px;
+
+border-radius: 12px;
+
+box-shadow: 0 6px 18px rgb(0 0 0 / 0.1);
+
+}
+
+
+
+/* Input fields */
+
+input[type="text"],
+
+input[type="email"],
+
+select,
+
+textarea {
+
+width: 100%;
+
+padding: 14px 18px;
+
+margin: 12px 0 24px 0;
+
+border: 2px solid #ddd;
+
+border-radius: 10px;
+
+font-size: 16px;
+
+font-family: 'Poppins', sans-serif;
+
+transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+
+
+input[type="text"]:focus,
+
+input[type="email"]:focus,
+
+select:focus,
+
+textarea:focus {
+
+outline: none;
+
+border-color: #3f51b5;
+
+box-shadow: 0 0 8px #3f51b5aa;
+
+}
+
+
+
+/* Buttons */
+
+button {
+
+padding: 14px 32px;
+
+margin-right: 14px;
+
+border: none;
+
+border-radius: 12px;
+
+font-size: 17px;
+
+font-weight: 700;
+
+cursor: pointer;
+
+transition: background-color 0.3s ease;
+
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+button.edit-btn {
+
+background-color: #4caf50;
+
+color: white;
+
+}
+
+
+
+button.edit-btn:hover {
+
+background-color: #43a047;
+
+}
+
+
+
+button.delete-btn {
+
+background-color: #f44336;
+
+color: white;
+
+}
+
+
+
+button.delete-btn:hover {
+
+background-color: #d32f2f;
+
+}
+
+
+
+button.submit-btn {
+
+background-color: #3f51b5;
+
+color: white;
+
+margin-top: 12px;
+
+}
+
+
+
+button.submit-btn:hover {
+
+background-color: #303f9f;
+
+}
+
+
+
+/* Footer */
+
+footer {
+
+text-align: center;
+
+padding: 16px 0;
+
+color: #777;
+
+font-size: 14px;
+
+margin-top: 40px;
+
+}
